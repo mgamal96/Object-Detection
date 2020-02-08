@@ -149,20 +149,6 @@ def plot_predictions(pred, img):
     cv2.imwrite(filename, img)
 
 
-def IOU_single(y1, y2):
-    """
-    Computes IOU matrix
-    y1, y2 shapes ar [4] and [4]
-    """
-
-def IOU_batch(y1, y2):
-    """
-    Computes IOU matrix
-    y1, y2 shapes ar [N1, 6] and [N2, 6]
-    """
-
-
-    cls_adjacency =torch.unsqueeze(y2, 1) torch.unsqueeze(y2, 1)
 
 
 class IOU:

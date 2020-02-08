@@ -6,6 +6,7 @@ import cv2
 from model import*
 from utils import*
 
+
 def accuracy(newModel, YOLO,  valid_set_path):
     """
     Compute Precision, Recall, Average Precision
@@ -69,6 +70,7 @@ if __name__ == '__main__':
     # Loss function and optimizer
     loss_fn = torch.nn.MSELoss(reduction='mean')
     optimizer = torch.optim.Adam(newModel.model.parameters(), lr=learning_rate)
+
 
 
     for i in range(100):
