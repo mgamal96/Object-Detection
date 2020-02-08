@@ -1,7 +1,7 @@
 
 ## Description
 
-This project uses yolov3 as a teacher network for a smaller network trained only on vehicle objects. 
+This project uses **knowledge distillation** to train a model to detect vehicle objects. **Yolov3** is used as the teacher network. Addtionally, **transfer learning** is adopted and the model is a initialized with the first 17 layers taken from **VGG16** .
 
 
 ## Model Architecture
