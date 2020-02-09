@@ -3,6 +3,22 @@
 
 This project uses **knowledge distillation** to train a model to detect vehicle objects. **Yolov3** is used as the teacher network. Addtionally, **transfer learning** is adopted and the model is a initialized with the first 17 layers taken from **VGG16** .
 
+## Qualitative Assesment 
+
+<table style="width:100%">
+  <tr>
+    <th>Distilled Model<img src="https://github.com/mgamal96/Object-Detection/blob/master/sample%20outputs/us3.jpg?raw=true" width="400"></th>
+        <th>Yolov3<img src="https://github.com/mgamal96/Object-Detection/blob/master/sample%20outputs/yolo3.jpg?raw=true" width="400"></th>
+  </tr>
+</table>
+
+
+<table style="width:100%">
+  <tr>
+    <th>Distilled Model<img src="https://github.com/mgamal96/Object-Detection/blob/master/sample%20outputs/us2.jpg?raw=true" width="400"></th>
+        <th>Yolov3<img src="https://github.com/mgamal96/Object-Detection/blob/master/sample%20outputs/yolo2.jpg?raw=true" width="400"></th>
+  </tr>
+</table>
 
 ## Model Architecture
 
@@ -42,21 +58,3 @@ This project uses **knowledge distillation** to train a model to detect vehicle 
 Total params: 2,310,999
 Trainable params: 575,511
 Non-trainable params: 1,735,488
-
-## Qualitative Assesment 
-
-<table style="width:100%">
-  <tr>
-    <th>Distilled Model<img src="https://github.com/mgamal96/Object-Detection/blob/master/sample%20outputs/us3.jpg?raw=true" width="400"></th>
-        <th>Yolov3<img src="https://github.com/mgamal96/Object-Detection/blob/master/sample%20outputs/yolo3.jpg?raw=true" width="400"></th>
-  </tr>
-</table>
-
-
-<table style="width:100%">
-  <tr>
-    <th>Distilled Model<img src="https://github.com/mgamal96/Object-Detection/blob/master/sample%20outputs/us2.jpg?raw=true" width="400"></th>
-        <th>Yolov3<img src="https://github.com/mgamal96/Object-Detection/blob/master/sample%20outputs/yolo2.jpg?raw=true" width="400"></th>
-  </tr>
-</table>
-
